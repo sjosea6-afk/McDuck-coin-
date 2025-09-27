@@ -1,0 +1,29 @@
+/* Fondo a pantalla completa */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('Gemini_Generated_Image_g0ukzg0ukzg0ukzg.png') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  background: rgba(0,0,0,0.5); /* un pequeño oscurecido para que el texto se lea mejor */
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
